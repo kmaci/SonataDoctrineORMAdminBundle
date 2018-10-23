@@ -205,7 +205,7 @@ class ProxyQuery implements ProxyQueryInterface
     {
         $query = $this->queryBuilder->getQuery();
 
-        return count($query->getArrayResult())
+        return count($query->getArrayResult());
     }
 
     /**
